@@ -1,0 +1,4 @@
+[INFO ] 2022-11-30 16:59:54.290 [main] c1 - visited website
+[INFO ] 2022-11-30 16:59:54.293 [main] c1 - going to click n checkboxes
+[WARN ] 2022-11-30 16:59:54.312 [main] c1 - check box may not be visible
+[INFO ] 2022-11-30 16:59:57.448 [main] c1 - closing

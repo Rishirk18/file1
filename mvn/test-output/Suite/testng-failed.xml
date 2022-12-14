@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="VPASS" value="23432"/>
+    <parameter name="VEMAIL" value="sdvdsf"/>
+    <classes>
+      <class name="pack1.c2">
+        <methods>
+          <include name="t2"/>
+        </methods>
+      </class> <!-- pack1.c2 -->
+      <class name="dataprovider.d1">
+        <methods>
+          <include name="DataProvSampleTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- dataprovider.d1 -->
+      <class name="pack2.c3">
+        <methods>
+          <include name="t3"/>
+        </methods>
+      </class> <!-- pack2.c3 -->
+      <class name="pack2.c4">
+        <methods>
+          <include name="t4"/>
+        </methods>
+      </class> <!-- pack2.c4 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
